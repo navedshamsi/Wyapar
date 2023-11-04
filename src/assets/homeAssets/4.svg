@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.375" height="70.812" viewBox="0 0 57.375 70.812">
+  <g id="Group_12" data-name="Group 12" transform="translate(0.375 0.375)">
+    <g id="Group_11" data-name="Group 11">
+      <path id="Path_8" data-name="Path 8" d="M86.509,89.35,97.234,75.563h35.08l10.82,13.787Z" transform="translate(-86.509 -75.563)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_9" data-name="Path 9" d="M94.54,90.422a7,7,0,0,1,13.978,0v11.12H94.54Z" transform="translate(-73.316 -63.044)" fill="none" stroke="#ff9265" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <line id="Line_4" data-name="Line 4" x2="13.976" transform="translate(7.25 33.787)" fill="none" stroke="#ff9265" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <line id="Line_5" data-name="Line 5" x2="13.976" transform="translate(34.77 33.787)" fill="none" stroke="#ff9265" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_10" data-name="Path 10" d="M89.252,81v24.711h41.929V81" transform="translate(-82.003 -67.215)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    </g>
+    <text id="HOME" transform="translate(28.167 66.437)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI" letter-spacing="0.04em"><tspan x="-20.914" y="0">HOME</tspan></text>
+  </g>
+</svg>

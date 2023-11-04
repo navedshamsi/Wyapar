@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="78.326" viewBox="0 0 44 78.326">
+  <g id="Group_14" data-name="Group 14" transform="translate(-9.789 0.375)">
+    <g id="Group_13" data-name="Group 13" transform="translate(10.969)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="18.304" height="19.988" transform="translate(0 16.564)" fill="none" stroke="#9a9ae8" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="18.304" height="9.994" transform="translate(0 0)" fill="none" stroke="#ff9265" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="18.303" height="19.988" transform="translate(41.929 19.988) rotate(180)" fill="none" stroke="#9a9ae8" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="18.303" height="9.994" transform="translate(41.929 36.552) rotate(180)" fill="none" stroke="#ff9265" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    </g>
+    <text id="NEW_RECIEPT" data-name="NEW 
+RECIEPT" transform="translate(31.789 60.951)" fill="#9a9ae8" font-size="11" font-family="SegoeUI, Segoe UI" letter-spacing="0.04em"><tspan x="-14.201" y="0">NEW </tspan><tspan x="-21.005" y="14">RECIEPT</tspan></text>
+  </g>
+</svg>
