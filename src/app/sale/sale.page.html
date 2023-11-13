@@ -1,13 +1,37 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>sale</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">sale</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="SaleContainer">
+
+
+    <ion-card class="SaleSVGContainer">
+      <div class="SaleSVG"></div>
+    </ion-card>
+
+
+
+      <ion-card class="SaleGridCard">
+        <ion-card-header>
+          <ion-card-title class="pain">
+            SALE ENTRY
+          </ion-card-title>
+        </ion-card-header>
+        <ion-grid>
+          <ion-row *ngFor="let x of data">
+            <ion-col>{{x.a}}</ion-col>
+            <ion-col>{{x.b}}</ion-col>
+            <ion-col>{{x.c}}</ion-col>
+            <ion-col>{{x.d}}</ion-col>
+            <ion-col>{{x.e}}</ion-col>
+          </ion-row>
+          <ion-row *ngFor="let x of rows">
+            <ion-col><ion-input></ion-input></ion-col>
+            <ion-col><ion-input></ion-input></ion-col>
+            <ion-col><ion-input></ion-input></ion-col>
+            <ion-col><ion-input></ion-input></ion-col>
+            <ion-col><ion-input></ion-input></ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-button (click)="addRow()" class="addRow">Add New Row</ion-button>
+        <ion-button class="addRow">Submit</ion-button>
+      </ion-card>
+  </div>
 </ion-content>
