@@ -1,7 +1,7 @@
 
 #HomeWidgetsContainer{
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-columns:10% 18% 36% 36%;
   grid-template-rows:40% 30% 30%;
@@ -13,6 +13,7 @@
   width:60%;
   height:80%;
   background: url("../../assets/homeAssets/Group\ 53.svg");
+  background-size:100% 100% ;
   margin:2% auto 0 auto;
   grid-column: 2 / 5;
   grid-row: 1/2;
@@ -22,11 +23,11 @@
 }
 #Avatarsvg ion-card-title{
   color:white;
-  font-size:xx-large;
+  font-size:2em;
 }
 #Avatarsvg ion-card-subtitle{
   color:#9A9AE8;
-  font-size:large;
+  font-size:1.5em;
 }
 #navbar{
   background-color: #16002A;
@@ -70,8 +71,10 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: #16002A;
   text-align: center;
+  padding:1%;
 }
 #purchase{
   grid-column: 2 / 3;
@@ -83,12 +86,15 @@
    width: 100%;
    margin: auto;
    text-align: center;
+   font-size: x-large;
 }
-#sales h1,#purchase h1{
+#sales ion-card-subtitle,#purchase ion-card-subtitle{
   width: 100%;
   margin: auto;
   text-align: center;
   color: white;
+  font-size:20q;
+
 }
 
 #profitEntries{
@@ -116,21 +122,23 @@
   background-image: url("../../assets/homeAssets/profit.svg");
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100% 80%;
   text-align: center;
   z-index: 2;
-  // background: transparent;
+  
+
 }
 #profit ion-card-title, #profitEntries ion-card-title{
-    font-size: x-large;
+    font-size:1.5em;
     color:white;
 }
 
 .svgAdd{
   background-image: url("../../assets/homeAssets/Group\ 179.svg");
   width: 15%;
-  height: 25%;
+  height: 15%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   margin: auto;
 }
 
@@ -145,5 +153,7 @@ ion-col {
 
 ion-grid{
   width: 50%;
+  height: 80%;
+  overflow-y: hidden;
   margin: 0;
 }

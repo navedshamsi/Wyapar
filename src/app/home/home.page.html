@@ -9,18 +9,16 @@
     </ion-card>
     
     <ion-card id="sales">
-      <ion-card-header>
-        <h1>Purchase Entry</h1>
-      </ion-card-header>
-      <ion-card-title> Add a new purchase </ion-card-title>
+  
+        <ion-card-title>Purchase Entry</ion-card-title>
+    <ion-card-subtitle>Add a new Purchase</ion-card-subtitle>
+  
       <div  class="svgAdd"></div>
     </ion-card>
     
     <ion-card id="purchase">
-      <ion-card-header>
-        <h1>Sale Entry </h1>
-      </ion-card-header>
-      <ion-card-title> Add a new sale entry </ion-card-title>
+        <ion-card-title>Sale Entry</ion-card-title>
+    <ion-card-subtitle>Add a new Sale</ion-card-subtitle>
       <div [routerLink]="['/sale']" class="svgAdd"></div>
     </ion-card>
     
@@ -35,7 +33,7 @@
       <ion-card-header>
         <ion-card-title>Entries</ion-card-title>
       </ion-card-header>
-      <ion-grid>
+      <ion-grid [fixed]="true">
         <ion-row *ngFor="let x of data">
           <ion-col >{{x.a}}</ion-col>
           <ion-col>{{x.b}}</ion-col>
