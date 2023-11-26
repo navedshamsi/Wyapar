@@ -15,19 +15,11 @@
           </ion-card-title>
         </ion-card-header>
         <ion-grid>
-          <ion-row *ngFor="let x of data">
-            <ion-col>{{x.a}}</ion-col>
-            <ion-col>{{x.b}}</ion-col>
-            <ion-col>{{x.c}}</ion-col>
-            <ion-col>{{x.d}}</ion-col>
-            <ion-col>{{x.e}}</ion-col>
+          <ion-row >
+            <ion-col *ngFor="let x of data">{{x}}</ion-col>
           </ion-row>
           <ion-row *ngFor="let x of rows">
-            <ion-col><ion-input></ion-input></ion-col>
-            <ion-col><ion-input></ion-input></ion-col>
-            <ion-col><ion-input></ion-input></ion-col>
-            <ion-col><ion-input></ion-input></ion-col>
-            <ion-col><ion-input></ion-input></ion-col>
+            <ion-col *ngFor="let x of data"><ion-input></ion-input></ion-col>
           </ion-row>
         </ion-grid>
         <ion-button (click)="addRow()" class="addRow">Add New Row</ion-button>

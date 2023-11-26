@@ -1,0 +1,25 @@
+
+<ion-content [fullscreen]="true">
+  
+    <div id="PurchaseEntryContainer">
+      <ion-item>
+        <ion-select label="Choose client" placeholder="ns">
+          <ion-select-option value="banana">NS</ion-select-option>
+          <ion-select-option value="apple">SY</ion-select-option>
+          <ion-select-option value="orange">RG</ion-select-option>
+        </ion-select>
+      </ion-item> 
+      <button id="click-trigger" class="AddClientButton">
+           ADD NEW CLIENT
+      </button>
+
+      <ion-popover class="newClientC" trigger="click-trigger" triggerAction="click">
+        <ng-template >
+          <ion-content  class="ion-padding">
+            <ion-input [(ngModel)]="rows" label="Titles"></ion-input>
+            <ion-button (click)="clickme()">Submit</ion-button>
+          </ion-content>
+        </ng-template>
+      </ion-popover>
+    </div>
+</ion-content>

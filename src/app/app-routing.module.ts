@@ -10,9 +10,14 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },  {
+  },
+  {
     path: 'sale',
     loadChildren: () => import('./sale/sale.module').then( m => m.SalePageModule)
+  },
+  {
+    path: 'purchaseentry',
+    loadChildren: () => import('./purchase-entry/purchase-entry.module').then( m => m.PurchaseEntryPageModule)
   },
 
 ];
